@@ -72,8 +72,15 @@ ul {
         color:var(--black);    
     }
     .links:hover{
-        color: var(--blue);
+        color: var(--black);
+        text-decoration:underline 2px var(--blue);
+        cursor: pointer;
     }
+
+    .links:active,.links:focus {
+    color: var(--blue);
+    text-decoration: none;
+}
   
     .header_email{
         font-family: var(--primary-font);
