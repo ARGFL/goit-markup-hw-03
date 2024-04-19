@@ -82,7 +82,7 @@ ul {
         cursor: pointer;
     }
 
-    .links:active,.links:focus {
+    .links:active,.links:focus,.links:hover {
     color: var(--blue);
     text-decoration: none;
 }
@@ -142,12 +142,12 @@ ul {
 
 .button:hover, .button:focus, .button:active {
     border: 2px solid var(--blue);
-    box-shadow: 0 0 2px;
+    box-shadow: 0 0 3px;
 
 }
 
 .button:focus {
- border-radius: 4px;
+ border-radius: 4px;  
 }
 /*Group Section*/
 
@@ -390,19 +390,27 @@ gap: 10px;
 
 }
     
-    .buttons_page2 button:hover {
-       font-family: var(--primary-font);
+    .buttons_page2 button:hover, .button:focus, .button:active {
+       /* font-family: var(--primary-font);
         font-weight: 500;
         font-size: 16px;
-        line-height:26px;
-        color:var(--black);
+        line-height:26px; */
+        /* box-shadow: 0 0 2px;  */
+        background-color: var(--blue);
+        color: var(--white);
+    
+
+        /* .button:hover, .button:focus, .button:active {
+            border: 2px solid var(--blue);
+            box-shadow: 0 0 9px;
+         */
         
     }
-    .buttons_page2 button:focus {
+    /* .buttons_page2 button:focus {
         color: var(--white);
         background-color: var(--blue);
 
-    }
+    } */
     .portofolio_products_container {
         display: flex;
         flex-wrap: wrap;
