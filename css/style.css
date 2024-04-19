@@ -431,18 +431,22 @@ gap: 10px;
     }
 
     
-    .portofolio_products_container b {
+    .portofolio_products_container .project {
         font-family: var(--primary-font);
-        font-weight: 700;
+        font-weight: 700px;
+        font-weight: bold;
         font-size: 18px;
         line-height:36px;
         color:var(--black);
         background-color: var(--white);
-        font-weight: bold;
+        padding-top: 10px;
+        padding-left: 20px;
+        letter-spacing: 6%;
+        
 
         
     }
-    .portofolio_products_container p {
+    .portofolio_products_container .project_name {
         font-family: var(--primary-font);
         font-weight: 400;
         font-size: 16px;
